@@ -14,6 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "api_doc"
   gem.require_paths = ["lib"]
   gem.version       = ApiDoc::VERSION
-  gem.add_dependency("rails", ">= 3.2")
+  gem.add_dependency("rails", ">= 3.1")
   gem.add_dependency("jquery-rails")
 end
